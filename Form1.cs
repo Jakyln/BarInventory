@@ -19,9 +19,18 @@ namespace BarInventory
         static Boisson Sunset_very_strong_rhum = new Boisson("Sunset_very_strong_rhum", 7.0, 15.0, "alcool", 4);
         static List<Boisson> boissons = new List<Boisson>()
         {
-            Ricard,Jagerbomb, Cocoroco, Devils_spring_vodka,Sunset_very_strong_rhum
+            Ricard, Jagerbomb, Cocoroco, Devils_spring_vodka, Sunset_very_strong_rhum
         };
-        static Inventaire inventaire = new Inventaire(boissons);
+
+        public void updatePrixTotal()
+        {
+            double prixTotal = 0;
+            foreach (Boisson boisson in boissons)
+            {
+                prixTotal += boisson.PrixDeVente * boisson.Quantite;
+            }
+            lblTotalPrix.Text = prixTotal.ToString();
+        }
 
         public Form1()
         {
@@ -45,6 +54,7 @@ namespace BarInventory
             lblPrix3.Text = (Cocoroco.PrixDeVente * Cocoroco.Quantite).ToString();
             lblPrix4.Text = (Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite).ToString();
             lblPrix5.Text = (Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite).ToString();
+            updatePrixTotal();
         }
 
         #region produit1
@@ -64,6 +74,7 @@ namespace BarInventory
             double prixTotal = Ricard.PrixDeVente * Ricard.Quantite;
             lblPrix1.Text = prixTotal.ToString();
             lblQte1.Text = quantitie.ToString();
+            updatePrixTotal();
         }
 
         private void btnPlus1_Click(object sender, EventArgs e)
@@ -74,6 +85,7 @@ namespace BarInventory
             lblQte1.Text = quantitie.ToString();
             double prixTotal = Ricard.PrixDeVente * Ricard.Quantite;
             lblPrix1.Text = prixTotal.ToString();
+            updatePrixTotal();
         }
 
         private void lbl1_Click(object sender, EventArgs e)
@@ -104,6 +116,7 @@ namespace BarInventory
                 lblQte2.Text = quantitie.ToString();
                 double prixTotal = Jagerbomb.PrixDeVente * Jagerbomb.Quantite;
                 lblPrix2.Text = prixTotal.ToString();
+                updatePrixTotal();
             }
         }
 
@@ -113,6 +126,7 @@ namespace BarInventory
             lblQte2.Text = Jagerbomb.Quantite.ToString();
             double prixTotal = Jagerbomb.PrixDeVente * Jagerbomb.Quantite;
             lblPrix2.Text = prixTotal.ToString();
+            updatePrixTotal();
         }
 
         private void lbl2_Click(object sender, EventArgs e)
@@ -144,6 +158,7 @@ namespace BarInventory
                     lblQte3.Text = quantitie.ToString();
                     double prixTotal = Cocoroco.PrixDeVente * Cocoroco.Quantite;
                     lblPrix3.Text = prixTotal.ToString();
+                    updatePrixTotal();
                 }
             }
         }
@@ -154,6 +169,7 @@ namespace BarInventory
             lblQte3.Text = Cocoroco.Quantite.ToString();
             double prixTotal = Cocoroco.PrixDeVente * Cocoroco.Quantite;
             lblPrix3.Text = prixTotal.ToString();
+            updatePrixTotal();
         }
 
         private void lbl3_Click(object sender, EventArgs e)
@@ -185,7 +201,7 @@ namespace BarInventory
                     lblQte4.Text = quantitie.ToString();
                     double prixTotal = Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite;
                     lblPrix4.Text = prixTotal.ToString();
-
+                    updatePrixTotal();
                 }
             }
         }
@@ -197,6 +213,7 @@ namespace BarInventory
             lblQte4.Text = Devils_spring_vodka.Quantite.ToString();
             double prixTotal = Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite;
             lblPrix4.Text = prixTotal.ToString();
+            updatePrixTotal();
         }
 
         private void lbl4_Click(object sender, EventArgs e)
@@ -229,6 +246,7 @@ namespace BarInventory
                     lblQte5.Text = quantitie.ToString();
                     double prixTotal = Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite;
                     lblPrix5.Text = prixTotal.ToString();
+                    updatePrixTotal();
                 }
             }
         }
@@ -239,6 +257,7 @@ namespace BarInventory
             lblQte5.Text = Sunset_very_strong_rhum.Quantite.ToString();
             double prixTotal = Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite;
             lblPrix5.Text = prixTotal.ToString();
+            updatePrixTotal();
         }
 
         private void lbl5_Click(object sender, EventArgs e)
