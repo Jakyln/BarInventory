@@ -52,10 +52,9 @@
             // 
             // btnPlus1
             // 
-            this.btnPlus1.Location = new System.Drawing.Point(615, 137);
-            this.btnPlus1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus1.Location = new System.Drawing.Point(461, 111);
             this.btnPlus1.Name = "btnPlus1";
-            this.btnPlus1.Size = new System.Drawing.Size(44, 37);
+            this.btnPlus1.Size = new System.Drawing.Size(33, 30);
             this.btnPlus1.TabIndex = 2;
             this.btnPlus1.Text = "+";
             this.btnPlus1.UseVisualStyleBackColor = true;
@@ -64,19 +63,17 @@
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(295, 148);
-            this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl1.Location = new System.Drawing.Point(277, 120);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(0, 16);
+            this.lbl1.Size = new System.Drawing.Size(0, 13);
             this.lbl1.TabIndex = 3;
             this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
             // 
             // btnMoins1
             // 
-            this.btnMoins1.Location = new System.Drawing.Point(563, 137);
-            this.btnMoins1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins1.Location = new System.Drawing.Point(422, 111);
             this.btnMoins1.Name = "btnMoins1";
-            this.btnMoins1.Size = new System.Drawing.Size(44, 37);
+            this.btnMoins1.Size = new System.Drawing.Size(33, 30);
             this.btnMoins1.TabIndex = 4;
             this.btnMoins1.Text = "-";
             this.btnMoins1.UseVisualStyleBackColor = true;
@@ -84,10 +81,9 @@
             // 
             // btnMoins2
             // 
-            this.btnMoins2.Location = new System.Drawing.Point(563, 181);
-            this.btnMoins2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins2.Location = new System.Drawing.Point(422, 147);
             this.btnMoins2.Name = "btnMoins2";
-            this.btnMoins2.Size = new System.Drawing.Size(44, 37);
+            this.btnMoins2.Size = new System.Drawing.Size(33, 30);
             this.btnMoins2.TabIndex = 7;
             this.btnMoins2.Text = "-";
             this.btnMoins2.UseVisualStyleBackColor = true;
@@ -96,19 +92,17 @@
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(295, 192);
-            this.lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl2.Location = new System.Drawing.Point(277, 156);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(0, 16);
+            this.lbl2.Size = new System.Drawing.Size(0, 13);
             this.lbl2.TabIndex = 6;
             this.lbl2.Click += new System.EventHandler(this.lbl2_Click);
             // 
             // btnPlus2
             // 
-            this.btnPlus2.Location = new System.Drawing.Point(615, 181);
-            this.btnPlus2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus2.Location = new System.Drawing.Point(461, 147);
             this.btnPlus2.Name = "btnPlus2";
-            this.btnPlus2.Size = new System.Drawing.Size(44, 37);
+            this.btnPlus2.Size = new System.Drawing.Size(33, 30);
             this.btnPlus2.TabIndex = 5;
             this.btnPlus2.Text = "+";
             this.btnPlus2.UseVisualStyleBackColor = true;
@@ -116,10 +110,9 @@
             // 
             // btnMoins3
             // 
-            this.btnMoins3.Location = new System.Drawing.Point(563, 225);
-            this.btnMoins3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins3.Location = new System.Drawing.Point(422, 183);
             this.btnMoins3.Name = "btnMoins3";
-            this.btnMoins3.Size = new System.Drawing.Size(44, 37);
+            this.btnMoins3.Size = new System.Drawing.Size(33, 30);
             this.btnMoins3.TabIndex = 10;
             this.btnMoins3.Text = "-";
             this.btnMoins3.UseVisualStyleBackColor = true;
@@ -128,19 +121,17 @@
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(295, 236);
-            this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl3.Location = new System.Drawing.Point(277, 192);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(0, 16);
+            this.lbl3.Size = new System.Drawing.Size(0, 13);
             this.lbl3.TabIndex = 9;
             this.lbl3.Click += new System.EventHandler(this.lbl3_Click);
             // 
             // btnPlus3
             // 
-            this.btnPlus3.Location = new System.Drawing.Point(615, 225);
-            this.btnPlus3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus3.Location = new System.Drawing.Point(461, 183);
             this.btnPlus3.Name = "btnPlus3";
-            this.btnPlus3.Size = new System.Drawing.Size(44, 37);
+            this.btnPlus3.Size = new System.Drawing.Size(33, 30);
             this.btnPlus3.TabIndex = 8;
             this.btnPlus3.Text = "+";
             this.btnPlus3.UseVisualStyleBackColor = true;
@@ -148,10 +139,9 @@
             // 
             // btnMoins4
             // 
-            this.btnMoins4.Location = new System.Drawing.Point(563, 270);
-            this.btnMoins4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins4.Location = new System.Drawing.Point(422, 219);
             this.btnMoins4.Name = "btnMoins4";
-            this.btnMoins4.Size = new System.Drawing.Size(44, 37);
+            this.btnMoins4.Size = new System.Drawing.Size(33, 30);
             this.btnMoins4.TabIndex = 13;
             this.btnMoins4.Text = "-";
             this.btnMoins4.UseVisualStyleBackColor = true;
@@ -160,19 +150,17 @@
             // lbl4
             // 
             this.lbl4.AutoSize = true;
-            this.lbl4.Location = new System.Drawing.Point(295, 281);
-            this.lbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl4.Location = new System.Drawing.Point(277, 228);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(0, 16);
+            this.lbl4.Size = new System.Drawing.Size(0, 13);
             this.lbl4.TabIndex = 12;
             this.lbl4.Click += new System.EventHandler(this.lbl4_Click);
             // 
             // btnPlus4
             // 
-            this.btnPlus4.Location = new System.Drawing.Point(615, 270);
-            this.btnPlus4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus4.Location = new System.Drawing.Point(461, 219);
             this.btnPlus4.Name = "btnPlus4";
-            this.btnPlus4.Size = new System.Drawing.Size(44, 37);
+            this.btnPlus4.Size = new System.Drawing.Size(33, 30);
             this.btnPlus4.TabIndex = 11;
             this.btnPlus4.Text = "+";
             this.btnPlus4.UseVisualStyleBackColor = true;
@@ -180,10 +168,9 @@
             // 
             // btnMoins5
             // 
-            this.btnMoins5.Location = new System.Drawing.Point(563, 314);
-            this.btnMoins5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins5.Location = new System.Drawing.Point(422, 255);
             this.btnMoins5.Name = "btnMoins5";
-            this.btnMoins5.Size = new System.Drawing.Size(44, 37);
+            this.btnMoins5.Size = new System.Drawing.Size(33, 30);
             this.btnMoins5.TabIndex = 16;
             this.btnMoins5.Text = "-";
             this.btnMoins5.UseVisualStyleBackColor = true;
@@ -192,19 +179,17 @@
             // lbl5
             // 
             this.lbl5.AutoSize = true;
-            this.lbl5.Location = new System.Drawing.Point(295, 325);
-            this.lbl5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl5.Location = new System.Drawing.Point(277, 264);
             this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(0, 16);
+            this.lbl5.Size = new System.Drawing.Size(0, 13);
             this.lbl5.TabIndex = 15;
             this.lbl5.Click += new System.EventHandler(this.lbl5_Click);
             // 
             // btnPlus5
             // 
-            this.btnPlus5.Location = new System.Drawing.Point(615, 314);
-            this.btnPlus5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus5.Location = new System.Drawing.Point(461, 255);
             this.btnPlus5.Name = "btnPlus5";
-            this.btnPlus5.Size = new System.Drawing.Size(44, 37);
+            this.btnPlus5.Size = new System.Drawing.Size(33, 30);
             this.btnPlus5.TabIndex = 14;
             this.btnPlus5.Text = "+";
             this.btnPlus5.UseVisualStyleBackColor = true;
@@ -213,41 +198,41 @@
             // lblPrix5
             // 
             this.lblPrix5.AutoSize = true;
-            this.lblPrix5.Location = new System.Drawing.Point(508, 325);
-            this.lblPrix5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix5.Location = new System.Drawing.Point(381, 264);
             this.lblPrix5.Name = "lblPrix5";
-            this.lblPrix5.Size = new System.Drawing.Size(0, 16);
+            this.lblPrix5.Size = new System.Drawing.Size(13, 13);
             this.lblPrix5.TabIndex = 21;
+            this.lblPrix5.Text = "0";
             this.lblPrix5.Click += new System.EventHandler(this.lblPrix5_Click);
             // 
             // lblPrix4
             // 
             this.lblPrix4.AutoSize = true;
-            this.lblPrix4.Location = new System.Drawing.Point(508, 281);
-            this.lblPrix4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix4.Location = new System.Drawing.Point(381, 228);
             this.lblPrix4.Name = "lblPrix4";
-            this.lblPrix4.Size = new System.Drawing.Size(0, 16);
+            this.lblPrix4.Size = new System.Drawing.Size(13, 13);
             this.lblPrix4.TabIndex = 20;
+            this.lblPrix4.Text = "0";
             this.lblPrix4.Click += new System.EventHandler(this.lblPrix4_Click);
             // 
             // lblPrix3
             // 
             this.lblPrix3.AutoSize = true;
-            this.lblPrix3.Location = new System.Drawing.Point(508, 236);
-            this.lblPrix3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix3.Location = new System.Drawing.Point(381, 192);
             this.lblPrix3.Name = "lblPrix3";
-            this.lblPrix3.Size = new System.Drawing.Size(0, 16);
+            this.lblPrix3.Size = new System.Drawing.Size(13, 13);
             this.lblPrix3.TabIndex = 19;
+            this.lblPrix3.Text = "0";
             this.lblPrix3.Click += new System.EventHandler(this.lblPrix3_Click);
             // 
             // lblPrix2
             // 
             this.lblPrix2.AutoSize = true;
-            this.lblPrix2.Location = new System.Drawing.Point(508, 192);
-            this.lblPrix2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix2.Location = new System.Drawing.Point(381, 156);
             this.lblPrix2.Name = "lblPrix2";
-            this.lblPrix2.Size = new System.Drawing.Size(0, 16);
+            this.lblPrix2.Size = new System.Drawing.Size(13, 13);
             this.lblPrix2.TabIndex = 18;
+            this.lblPrix2.Text = "0";
             this.lblPrix2.Click += new System.EventHandler(this.lblPrix2_Click);
             // 
             // lblPrix1
@@ -256,15 +241,16 @@
             this.lblPrix1.Location = new System.Drawing.Point(508, 148);
             this.lblPrix1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrix1.Name = "lblPrix1";
-            this.lblPrix1.Size = new System.Drawing.Size(0, 16);
+            this.lblPrix1.Size = new System.Drawing.Size(13, 13);
             this.lblPrix1.TabIndex = 17;
+            this.lblPrix1.Text = "0";
             this.lblPrix1.Click += new System.EventHandler(this.lblPrix1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblPrix5);
             this.Controls.Add(this.lblPrix4);
             this.Controls.Add(this.lblPrix3);
@@ -285,7 +271,6 @@
             this.Controls.Add(this.btnMoins1);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btnPlus1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Inventaire du bar";
             this.Load += new System.EventHandler(this.Form1_Load);
