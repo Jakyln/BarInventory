@@ -200,8 +200,9 @@
             this.lblPrix5.AutoSize = true;
             this.lblPrix5.Location = new System.Drawing.Point(381, 264);
             this.lblPrix5.Name = "lblPrix5";
-            this.lblPrix5.Size = new System.Drawing.Size(0, 13);
+            this.lblPrix5.Size = new System.Drawing.Size(13, 13);
             this.lblPrix5.TabIndex = 21;
+            this.lblPrix5.Text = "0";
             this.lblPrix5.Click += new System.EventHandler(this.lblPrix5_Click);
             // 
             // lblPrix4
@@ -209,8 +210,9 @@
             this.lblPrix4.AutoSize = true;
             this.lblPrix4.Location = new System.Drawing.Point(381, 228);
             this.lblPrix4.Name = "lblPrix4";
-            this.lblPrix4.Size = new System.Drawing.Size(0, 13);
+            this.lblPrix4.Size = new System.Drawing.Size(13, 13);
             this.lblPrix4.TabIndex = 20;
+            this.lblPrix4.Text = "0";
             this.lblPrix4.Click += new System.EventHandler(this.lblPrix4_Click);
             // 
             // lblPrix3
@@ -218,8 +220,9 @@
             this.lblPrix3.AutoSize = true;
             this.lblPrix3.Location = new System.Drawing.Point(381, 192);
             this.lblPrix3.Name = "lblPrix3";
-            this.lblPrix3.Size = new System.Drawing.Size(0, 13);
+            this.lblPrix3.Size = new System.Drawing.Size(13, 13);
             this.lblPrix3.TabIndex = 19;
+            this.lblPrix3.Text = "0";
             this.lblPrix3.Click += new System.EventHandler(this.lblPrix3_Click);
             // 
             // lblPrix2
@@ -227,8 +230,9 @@
             this.lblPrix2.AutoSize = true;
             this.lblPrix2.Location = new System.Drawing.Point(381, 156);
             this.lblPrix2.Name = "lblPrix2";
-            this.lblPrix2.Size = new System.Drawing.Size(0, 13);
+            this.lblPrix2.Size = new System.Drawing.Size(13, 13);
             this.lblPrix2.TabIndex = 18;
+            this.lblPrix2.Text = "0";
             this.lblPrix2.Click += new System.EventHandler(this.lblPrix2_Click);
             // 
             // lblPrix1
@@ -236,8 +240,9 @@
             this.lblPrix1.AutoSize = true;
             this.lblPrix1.Location = new System.Drawing.Point(381, 120);
             this.lblPrix1.Name = "lblPrix1";
-            this.lblPrix1.Size = new System.Drawing.Size(0, 13);
+            this.lblPrix1.Size = new System.Drawing.Size(13, 13);
             this.lblPrix1.TabIndex = 17;
+            this.lblPrix1.Text = "0";
             this.lblPrix1.Click += new System.EventHandler(this.lblPrix1_Click);
             // 
             // Form1
