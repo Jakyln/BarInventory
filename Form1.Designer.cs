@@ -48,6 +48,13 @@
             this.lblQte3 = new System.Windows.Forms.Label();
             this.lblQte2 = new System.Windows.Forms.Label();
             this.lblQte1 = new System.Windows.Forms.Label();
+            this.lblPrix5 = new System.Windows.Forms.Label();
+            this.lblPrix4 = new System.Windows.Forms.Label();
+            this.lblPrix3 = new System.Windows.Forms.Label();
+            this.lblPrix2 = new System.Windows.Forms.Label();
+            this.lblPrix1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnPlus1
@@ -265,11 +272,88 @@
             this.lblQte1.Text = "0";
             this.lblQte1.Click += new System.EventHandler(this.lblPrix1_Click);
             // 
+            // lblPrix5
+            // 
+            this.lblPrix5.AutoSize = true;
+            this.lblPrix5.Location = new System.Drawing.Point(714, 324);
+            this.lblPrix5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix5.Name = "lblPrix5";
+            this.lblPrix5.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix5.TabIndex = 27;
+            this.lblPrix5.Text = "0";
+            // 
+            // lblPrix4
+            // 
+            this.lblPrix4.AutoSize = true;
+            this.lblPrix4.Location = new System.Drawing.Point(714, 280);
+            this.lblPrix4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix4.Name = "lblPrix4";
+            this.lblPrix4.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix4.TabIndex = 26;
+            this.lblPrix4.Text = "0";
+            // 
+            // lblPrix3
+            // 
+            this.lblPrix3.AutoSize = true;
+            this.lblPrix3.Location = new System.Drawing.Point(714, 235);
+            this.lblPrix3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix3.Name = "lblPrix3";
+            this.lblPrix3.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix3.TabIndex = 25;
+            this.lblPrix3.Text = "0";
+            // 
+            // lblPrix2
+            // 
+            this.lblPrix2.AutoSize = true;
+            this.lblPrix2.Location = new System.Drawing.Point(714, 191);
+            this.lblPrix2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix2.Name = "lblPrix2";
+            this.lblPrix2.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix2.TabIndex = 24;
+            this.lblPrix2.Text = "0";
+            // 
+            // lblPrix1
+            // 
+            this.lblPrix1.AutoSize = true;
+            this.lblPrix1.Location = new System.Drawing.Point(714, 147);
+            this.lblPrix1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblPrix1.Name = "lblPrix1";
+            this.lblPrix1.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix1.TabIndex = 23;
+            this.lblPrix1.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(682, 99);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(120, 16);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "Prix de Vente Total";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(484, 99);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 16);
+            this.label2.TabIndex = 29;
+            this.label2.Text = "Quantite";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblPrix5);
+            this.Controls.Add(this.lblPrix4);
+            this.Controls.Add(this.lblPrix3);
+            this.Controls.Add(this.lblPrix2);
+            this.Controls.Add(this.lblPrix1);
             this.Controls.Add(this.lblQte5);
             this.Controls.Add(this.lblQte4);
             this.Controls.Add(this.lblQte3);
@@ -321,6 +405,13 @@
         private System.Windows.Forms.Label lblQte3;
         private System.Windows.Forms.Label lblQte2;
         private System.Windows.Forms.Label lblQte1;
+        private System.Windows.Forms.Label lblPrix5;
+        private System.Windows.Forms.Label lblPrix4;
+        private System.Windows.Forms.Label lblPrix3;
+        private System.Windows.Forms.Label lblPrix2;
+        private System.Windows.Forms.Label lblPrix1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
