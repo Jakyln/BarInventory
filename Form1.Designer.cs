@@ -71,12 +71,8 @@
             // 
             // btnPlus1
             // 
-<<<<<<< Updated upstream
             this.btnPlus1.Location = new System.Drawing.Point(641, 63);
             this.btnPlus1.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnPlus1.Location = new System.Drawing.Point(481, 53);
->>>>>>> Stashed changes
             this.btnPlus1.Name = "btnPlus1";
             this.btnPlus1.Size = new System.Drawing.Size(44, 37);
             this.btnPlus1.TabIndex = 2;
@@ -87,12 +83,8 @@
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-<<<<<<< Updated upstream
             this.lbl1.Location = new System.Drawing.Point(96, 73);
             this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lbl1.Location = new System.Drawing.Point(178, 111);
->>>>>>> Stashed changes
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(0, 16);
             this.lbl1.TabIndex = 3;
@@ -100,12 +92,8 @@
             // 
             // btnMoins1
             // 
-<<<<<<< Updated upstream
             this.btnMoins1.Location = new System.Drawing.Point(589, 63);
             this.btnMoins1.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnMoins1.Location = new System.Drawing.Point(442, 53);
->>>>>>> Stashed changes
             this.btnMoins1.Name = "btnMoins1";
             this.btnMoins1.Size = new System.Drawing.Size(44, 37);
             this.btnMoins1.TabIndex = 4;
@@ -115,12 +103,8 @@
             // 
             // btnMoins2
             // 
-<<<<<<< Updated upstream
             this.btnMoins2.Location = new System.Drawing.Point(589, 186);
             this.btnMoins2.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnMoins2.Location = new System.Drawing.Point(442, 172);
->>>>>>> Stashed changes
             this.btnMoins2.Name = "btnMoins2";
             this.btnMoins2.Size = new System.Drawing.Size(44, 37);
             this.btnMoins2.TabIndex = 7;
@@ -131,12 +115,8 @@
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-<<<<<<< Updated upstream
             this.lbl2.Location = new System.Drawing.Point(96, 186);
             this.lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lbl2.Location = new System.Drawing.Point(178, 235);
->>>>>>> Stashed changes
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(0, 16);
             this.lbl2.TabIndex = 6;
@@ -144,12 +124,8 @@
             // 
             // btnPlus2
             // 
-<<<<<<< Updated upstream
             this.btnPlus2.Location = new System.Drawing.Point(641, 186);
             this.btnPlus2.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnPlus2.Location = new System.Drawing.Point(481, 172);
->>>>>>> Stashed changes
             this.btnPlus2.Name = "btnPlus2";
             this.btnPlus2.Size = new System.Drawing.Size(44, 37);
             this.btnPlus2.TabIndex = 5;
@@ -159,12 +135,8 @@
             // 
             // btnMoins3
             // 
-<<<<<<< Updated upstream
             this.btnMoins3.Location = new System.Drawing.Point(589, 306);
             this.btnMoins3.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnMoins3.Location = new System.Drawing.Point(442, 297);
->>>>>>> Stashed changes
             this.btnMoins3.Name = "btnMoins3";
             this.btnMoins3.Size = new System.Drawing.Size(44, 37);
             this.btnMoins3.TabIndex = 10;
@@ -175,12 +147,8 @@
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-<<<<<<< Updated upstream
             this.lbl3.Location = new System.Drawing.Point(96, 534);
             this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lbl3.Location = new System.Drawing.Point(178, 365);
->>>>>>> Stashed changes
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(0, 16);
             this.lbl3.TabIndex = 9;
@@ -188,12 +156,8 @@
             // 
             // btnPlus3
             // 
-<<<<<<< Updated upstream
             this.btnPlus3.Location = new System.Drawing.Point(641, 306);
             this.btnPlus3.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnPlus3.Location = new System.Drawing.Point(481, 297);
->>>>>>> Stashed changes
             this.btnPlus3.Name = "btnPlus3";
             this.btnPlus3.Size = new System.Drawing.Size(44, 37);
             this.btnPlus3.TabIndex = 8;
@@ -203,12 +167,8 @@
             // 
             // btnMoins4
             // 
-<<<<<<< Updated upstream
             this.btnMoins4.Location = new System.Drawing.Point(589, 428);
             this.btnMoins4.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnMoins4.Location = new System.Drawing.Point(442, 421);
->>>>>>> Stashed changes
             this.btnMoins4.Name = "btnMoins4";
             this.btnMoins4.Size = new System.Drawing.Size(44, 37);
             this.btnMoins4.TabIndex = 13;
@@ -219,12 +179,8 @@
             // lbl4
             // 
             this.lbl4.AutoSize = true;
-<<<<<<< Updated upstream
             this.lbl4.Location = new System.Drawing.Point(96, 295);
             this.lbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lbl4.Location = new System.Drawing.Point(178, 488);
->>>>>>> Stashed changes
             this.lbl4.Name = "lbl4";
             this.lbl4.Size = new System.Drawing.Size(0, 16);
             this.lbl4.TabIndex = 12;
@@ -232,12 +188,8 @@
             // 
             // btnPlus4
             // 
-<<<<<<< Updated upstream
             this.btnPlus4.Location = new System.Drawing.Point(641, 428);
             this.btnPlus4.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnPlus4.Location = new System.Drawing.Point(481, 421);
->>>>>>> Stashed changes
             this.btnPlus4.Name = "btnPlus4";
             this.btnPlus4.Size = new System.Drawing.Size(44, 37);
             this.btnPlus4.TabIndex = 11;
@@ -247,12 +199,8 @@
             // 
             // btnMoins5
             // 
-<<<<<<< Updated upstream
             this.btnMoins5.Location = new System.Drawing.Point(589, 548);
             this.btnMoins5.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnMoins5.Location = new System.Drawing.Point(442, 569);
->>>>>>> Stashed changes
             this.btnMoins5.Name = "btnMoins5";
             this.btnMoins5.Size = new System.Drawing.Size(44, 37);
             this.btnMoins5.TabIndex = 16;
@@ -263,12 +211,8 @@
             // lbl5
             // 
             this.lbl5.AutoSize = true;
-<<<<<<< Updated upstream
             this.lbl5.Location = new System.Drawing.Point(96, 438);
             this.lbl5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lbl5.Location = new System.Drawing.Point(178, 636);
->>>>>>> Stashed changes
             this.lbl5.Name = "lbl5";
             this.lbl5.Size = new System.Drawing.Size(0, 16);
             this.lbl5.TabIndex = 15;
@@ -276,12 +220,8 @@
             // 
             // btnPlus5
             // 
-<<<<<<< Updated upstream
             this.btnPlus5.Location = new System.Drawing.Point(641, 548);
             this.btnPlus5.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.btnPlus5.Location = new System.Drawing.Point(481, 569);
->>>>>>> Stashed changes
             this.btnPlus5.Name = "btnPlus5";
             this.btnPlus5.Size = new System.Drawing.Size(44, 37);
             this.btnPlus5.TabIndex = 14;
@@ -292,12 +232,8 @@
             // lblQte5
             // 
             this.lblQte5.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblQte5.Location = new System.Drawing.Point(535, 559);
             this.lblQte5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lblQte5.Location = new System.Drawing.Point(401, 578);
->>>>>>> Stashed changes
             this.lblQte5.Name = "lblQte5";
             this.lblQte5.Size = new System.Drawing.Size(14, 16);
             this.lblQte5.TabIndex = 21;
@@ -307,12 +243,8 @@
             // lblQte4
             // 
             this.lblQte4.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblQte4.Location = new System.Drawing.Point(535, 439);
             this.lblQte4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lblQte4.Location = new System.Drawing.Point(401, 430);
->>>>>>> Stashed changes
             this.lblQte4.Name = "lblQte4";
             this.lblQte4.Size = new System.Drawing.Size(14, 16);
             this.lblQte4.TabIndex = 20;
@@ -322,12 +254,8 @@
             // lblQte3
             // 
             this.lblQte3.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblQte3.Location = new System.Drawing.Point(535, 318);
             this.lblQte3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lblQte3.Location = new System.Drawing.Point(401, 306);
->>>>>>> Stashed changes
             this.lblQte3.Name = "lblQte3";
             this.lblQte3.Size = new System.Drawing.Size(14, 16);
             this.lblQte3.TabIndex = 19;
@@ -337,12 +265,8 @@
             // lblQte2
             // 
             this.lblQte2.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblQte2.Location = new System.Drawing.Point(535, 197);
             this.lblQte2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lblQte2.Location = new System.Drawing.Point(401, 181);
->>>>>>> Stashed changes
             this.lblQte2.Name = "lblQte2";
             this.lblQte2.Size = new System.Drawing.Size(14, 16);
             this.lblQte2.TabIndex = 18;
@@ -352,13 +276,8 @@
             // lblQte1
             // 
             this.lblQte1.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblQte1.Location = new System.Drawing.Point(535, 74);
             this.lblQte1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-=======
-            this.lblQte1.Location = new System.Drawing.Point(401, 62);
-            this.lblQte1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
->>>>>>> Stashed changes
             this.lblQte1.Name = "lblQte1";
             this.lblQte1.Size = new System.Drawing.Size(14, 16);
             this.lblQte1.TabIndex = 17;
@@ -368,12 +287,8 @@
             // lblPrix5
             // 
             this.lblPrix5.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblPrix5.Location = new System.Drawing.Point(741, 558);
             this.lblPrix5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lblPrix5.Location = new System.Drawing.Point(556, 577);
->>>>>>> Stashed changes
             this.lblPrix5.Name = "lblPrix5";
             this.lblPrix5.Size = new System.Drawing.Size(14, 16);
             this.lblPrix5.TabIndex = 27;
@@ -382,12 +297,8 @@
             // lblPrix4
             // 
             this.lblPrix4.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblPrix4.Location = new System.Drawing.Point(741, 439);
             this.lblPrix4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lblPrix4.Location = new System.Drawing.Point(556, 430);
->>>>>>> Stashed changes
             this.lblPrix4.Name = "lblPrix4";
             this.lblPrix4.Size = new System.Drawing.Size(14, 16);
             this.lblPrix4.TabIndex = 26;
@@ -396,12 +307,8 @@
             // lblPrix3
             // 
             this.lblPrix3.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblPrix3.Location = new System.Drawing.Point(741, 316);
             this.lblPrix3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lblPrix3.Location = new System.Drawing.Point(556, 305);
->>>>>>> Stashed changes
             this.lblPrix3.Name = "lblPrix3";
             this.lblPrix3.Size = new System.Drawing.Size(14, 16);
             this.lblPrix3.TabIndex = 25;
@@ -410,12 +317,8 @@
             // lblPrix2
             // 
             this.lblPrix2.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblPrix2.Location = new System.Drawing.Point(741, 196);
             this.lblPrix2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
-            this.lblPrix2.Location = new System.Drawing.Point(556, 180);
->>>>>>> Stashed changes
             this.lblPrix2.Name = "lblPrix2";
             this.lblPrix2.Size = new System.Drawing.Size(14, 16);
             this.lblPrix2.TabIndex = 24;
@@ -424,29 +327,18 @@
             // lblPrix1
             // 
             this.lblPrix1.AutoSize = true;
-<<<<<<< Updated upstream
             this.lblPrix1.Location = new System.Drawing.Point(741, 73);
             this.lblPrix1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-=======
-            this.lblPrix1.Location = new System.Drawing.Point(556, 61);
-            this.lblPrix1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
->>>>>>> Stashed changes
             this.lblPrix1.Name = "lblPrix1";
             this.lblPrix1.Size = new System.Drawing.Size(14, 16);
             this.lblPrix1.TabIndex = 23;
             this.lblPrix1.Text = "0";
-            this.lblPrix1.Click += new System.EventHandler(this.lblPrix1_Click_1);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-<<<<<<< Updated upstream
             this.label1.Location = new System.Drawing.Point(685, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-=======
-            this.label1.Location = new System.Drawing.Point(512, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
->>>>>>> Stashed changes
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 16);
             this.label1.TabIndex = 28;
@@ -455,13 +347,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-<<<<<<< Updated upstream
             this.label2.Location = new System.Drawing.Point(487, 28);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-=======
-            this.label2.Location = new System.Drawing.Point(363, 9);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
->>>>>>> Stashed changes
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 16);
             this.label2.TabIndex = 29;
@@ -470,12 +357,8 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::BarInventory.Properties.Resources.sunset;
-<<<<<<< Updated upstream
             this.pictureBox5.Location = new System.Drawing.Point(314, 513);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.pictureBox5.Location = new System.Drawing.Point(181, 538);
->>>>>>> Stashed changes
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(157, 103);
             this.pictureBox5.TabIndex = 34;
@@ -485,12 +368,8 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::BarInventory.Properties.Resources.devils_springs;
-<<<<<<< Updated upstream
             this.pictureBox4.Location = new System.Drawing.Point(314, 402);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.pictureBox4.Location = new System.Drawing.Point(181, 391);
->>>>>>> Stashed changes
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(157, 103);
             this.pictureBox4.TabIndex = 33;
@@ -499,12 +378,8 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::BarInventory.Properties.Resources.cocoroco_;
-<<<<<<< Updated upstream
             this.pictureBox3.Location = new System.Drawing.Point(304, 271);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.pictureBox3.Location = new System.Drawing.Point(181, 278);
->>>>>>> Stashed changes
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(157, 103);
             this.pictureBox3.TabIndex = 32;
@@ -513,12 +388,8 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::BarInventory.Properties.Resources.jager;
-<<<<<<< Updated upstream
             this.pictureBox2.Location = new System.Drawing.Point(304, 149);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.pictureBox2.Location = new System.Drawing.Point(181, 148);
->>>>>>> Stashed changes
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(157, 103);
             this.pictureBox2.TabIndex = 31;
@@ -527,12 +398,8 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BarInventory.Properties.Resources.ricardo;
-<<<<<<< Updated upstream
             this.pictureBox1.Location = new System.Drawing.Point(288, 28);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-=======
-            this.pictureBox1.Location = new System.Drawing.Point(181, 23);
->>>>>>> Stashed changes
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(157, 103);
             this.pictureBox1.TabIndex = 30;
@@ -561,11 +428,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1108, 662);
-=======
-            this.ClientSize = new System.Drawing.Size(910, 699);
->>>>>>> Stashed changes
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -602,6 +465,7 @@
             this.Controls.Add(this.btnPlus1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
+            this.Text = "Inventaire du bar";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
