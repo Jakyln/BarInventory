@@ -49,12 +49,20 @@ namespace BarInventory
             lblQte3.Text = Cocoroco.Quantite.ToString();
             lblQte4.Text = Devils_spring_vodka.Quantite.ToString();
             lblQte5.Text = Sunset_very_strong_rhum.Quantite.ToString();
+<<<<<<< Updated upstream
             lblPrix1.Text = (Ricard.PrixDeVente * Ricard.Quantite).ToString();
             lblPrix2.Text = (Jagerbomb.PrixDeVente * Jagerbomb.Quantite).ToString();
             lblPrix3.Text = (Cocoroco.PrixDeVente * Cocoroco.Quantite).ToString();
             lblPrix4.Text = (Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite).ToString();
             lblPrix5.Text = (Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite).ToString();
             updatePrixTotal();
+=======
+            lblPrix1.Text = (Ricard.PrixDeVente * Ricard.Quantite).ToString() + " $";
+            lblPrix2.Text = (Jagerbomb.PrixDeVente * Jagerbomb.Quantite).ToString() + " $";
+            lblPrix3.Text = (Cocoroco.PrixDeVente * Cocoroco.Quantite).ToString() + " $";
+            lblPrix4.Text = (Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite).ToString() + " $";
+            lblPrix5.Text = (Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite).ToString() + " $";
+>>>>>>> Stashed changes
         }
 
         #region produit1
@@ -72,7 +80,7 @@ namespace BarInventory
             }
             Ricard.Quantite = quantitie;
             double prixTotal = Ricard.PrixDeVente * Ricard.Quantite;
-            lblPrix1.Text = prixTotal.ToString();
+            lblPrix1.Text = prixTotal.ToString() + " $";
             lblQte1.Text = quantitie.ToString();
             updatePrixTotal();
         }
@@ -84,8 +92,12 @@ namespace BarInventory
             Ricard.Quantite = quantitie;
             lblQte1.Text = quantitie.ToString();
             double prixTotal = Ricard.PrixDeVente * Ricard.Quantite;
+<<<<<<< Updated upstream
             lblPrix1.Text = prixTotal.ToString();
             updatePrixTotal();
+=======
+            lblPrix1.Text = prixTotal.ToString() + " $";
+>>>>>>> Stashed changes
         }
 
         private void lbl1_Click(object sender, EventArgs e)
@@ -115,8 +127,12 @@ namespace BarInventory
                 Jagerbomb.Quantite = quantitie;
                 lblQte2.Text = quantitie.ToString();
                 double prixTotal = Jagerbomb.PrixDeVente * Jagerbomb.Quantite;
+<<<<<<< Updated upstream
                 lblPrix2.Text = prixTotal.ToString();
                 updatePrixTotal();
+=======
+                lblPrix2.Text = prixTotal.ToString() + " $";
+>>>>>>> Stashed changes
             }
         }
 
@@ -125,8 +141,12 @@ namespace BarInventory
             Jagerbomb.Quantite++;
             lblQte2.Text = Jagerbomb.Quantite.ToString();
             double prixTotal = Jagerbomb.PrixDeVente * Jagerbomb.Quantite;
+<<<<<<< Updated upstream
             lblPrix2.Text = prixTotal.ToString();
             updatePrixTotal();
+=======
+            lblPrix2.Text = prixTotal.ToString() + " $";
+>>>>>>> Stashed changes
         }
 
         private void lbl2_Click(object sender, EventArgs e)
@@ -157,8 +177,12 @@ namespace BarInventory
                     Cocoroco.Quantite = quantitie;
                     lblQte3.Text = quantitie.ToString();
                     double prixTotal = Cocoroco.PrixDeVente * Cocoroco.Quantite;
+<<<<<<< Updated upstream
                     lblPrix3.Text = prixTotal.ToString();
                     updatePrixTotal();
+=======
+                    lblPrix3.Text = prixTotal.ToString() + " $";
+>>>>>>> Stashed changes
                 }
             }
         }
@@ -168,8 +192,12 @@ namespace BarInventory
             Cocoroco.Quantite++;
             lblQte3.Text = Cocoroco.Quantite.ToString();
             double prixTotal = Cocoroco.PrixDeVente * Cocoroco.Quantite;
+<<<<<<< Updated upstream
             lblPrix3.Text = prixTotal.ToString();
             updatePrixTotal();
+=======
+            lblPrix3.Text = prixTotal.ToString() + " $";
+>>>>>>> Stashed changes
         }
 
         private void lbl3_Click(object sender, EventArgs e)
@@ -200,8 +228,13 @@ namespace BarInventory
                     Devils_spring_vodka.Quantite = quantitie;
                     lblQte4.Text = quantitie.ToString();
                     double prixTotal = Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite;
+<<<<<<< Updated upstream
                     lblPrix4.Text = prixTotal.ToString();
                     updatePrixTotal();
+=======
+                    lblPrix4.Text = prixTotal.ToString() + " $";
+
+>>>>>>> Stashed changes
                 }
             }
         }
@@ -212,8 +245,12 @@ namespace BarInventory
             Devils_spring_vodka.Quantite++;
             lblQte4.Text = Devils_spring_vodka.Quantite.ToString();
             double prixTotal = Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite;
+<<<<<<< Updated upstream
             lblPrix4.Text = prixTotal.ToString();
             updatePrixTotal();
+=======
+            lblPrix4.Text = prixTotal.ToString() + " $";
+>>>>>>> Stashed changes
         }
 
         private void lbl4_Click(object sender, EventArgs e)
@@ -245,8 +282,12 @@ namespace BarInventory
                     Sunset_very_strong_rhum.Quantite = quantitie;
                     lblQte5.Text = quantitie.ToString();
                     double prixTotal = Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite;
+<<<<<<< Updated upstream
                     lblPrix5.Text = prixTotal.ToString();
                     updatePrixTotal();
+=======
+                    lblPrix5.Text = prixTotal.ToString() + " $";
+>>>>>>> Stashed changes
                 }
             }
         }
@@ -256,8 +297,12 @@ namespace BarInventory
             Sunset_very_strong_rhum.Quantite++;
             lblQte5.Text = Sunset_very_strong_rhum.Quantite.ToString();
             double prixTotal = Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite;
+<<<<<<< Updated upstream
             lblPrix5.Text = prixTotal.ToString();
             updatePrixTotal();
+=======
+            lblPrix5.Text = prixTotal.ToString() + " $";
+>>>>>>> Stashed changes
         }
 
         private void lbl5_Click(object sender, EventArgs e)
@@ -279,7 +324,11 @@ namespace BarInventory
 
         }
 
+<<<<<<< Updated upstream
         private void label4_Click(object sender, EventArgs e)
+=======
+        private void lblPrix1_Click_1(object sender, EventArgs e)
+>>>>>>> Stashed changes
         {
 
         }
