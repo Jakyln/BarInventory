@@ -12,6 +12,17 @@ namespace BarInventory
 {
     public partial class Form1 : Form
     {
+        static Boisson Ricard = new Boisson("Ricard", 3.0, 6.0, "alcool", 10);
+        static Boisson Jagerbomb = new Boisson("Jagerbomb", 4.0, 7.50, "alcool", 4);
+        static Boisson Cocoroco = new Boisson("Cocoroco", 3.0, 6.0, "alcool", 8);
+        static Boisson Devils_spring_vodka = new Boisson("Devils_spring_vodka", 5.0, 9.50, "alcool", 5);
+        static Boisson Sunset_very_strong_rhum = new Boisson("Sunset_very_strong_rhum", 7.0, 15.0, "alcool", 4);
+        static List<Boisson> boissons = new List<Boisson>()
+        {
+            Ricard,Jagerbomb, Cocoroco, Devils_spring_vodka,Sunset_very_strong_rhum
+        };
+        static Inventaire inventaire = new Inventaire(boissons);
+
         public Form1()
         {
             InitializeComponent();
@@ -19,18 +30,6 @@ namespace BarInventory
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Boisson Ricard = new Boisson("Ricard", 3.0, 6.0, "alcool", 10);
-            Boisson Jagerbomb = new Boisson("Jagerbomb", 4.0, 7.50, "alcool", 4);
-            Boisson Cocoroco = new Boisson("Cocoroco", 3.0, 6.0, "alcool", 8);
-            Boisson Devils_spring_vodka = new Boisson("Devils_spring_vodka", 5.0, 9.50, "alcool", 5);
-            Boisson Sunset_very_strong_rhum = new Boisson("Sunset_very_strong_rhum", 7.0, 15.0, "alcool", 4);
-            List<Boisson> list = new List<Boisson>();
-            list.Add(Ricard);
-            list.Add(Jagerbomb);
-            list.Add(Cocoroco);
-            list.Add(Devils_spring_vodka);
-            list.Add(Sunset_very_strong_rhum);
-            Inventaire inventaire = new Inventaire(list);
             lbl1.Text = Ricard.Name;
             lbl2.Text = Jagerbomb.Name;
             lbl3.Text = Cocoroco.Name;
@@ -41,12 +40,18 @@ namespace BarInventory
             lblQte3.Text = Cocoroco.Quantite.ToString();
             lblQte4.Text = Devils_spring_vodka.Quantite.ToString();
             lblQte5.Text = Sunset_very_strong_rhum.Quantite.ToString();
+            lblPrix1.Text = (Ricard.PrixDeVente * Ricard.Quantite).ToString();
+            lblPrix2.Text = (Jagerbomb.PrixDeVente * Jagerbomb.Quantite).ToString();
+            lblPrix3.Text = (Cocoroco.PrixDeVente * Cocoroco.Quantite).ToString();
+            lblPrix4.Text = (Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite).ToString();
+            lblPrix5.Text = (Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite).ToString();
         }
 
         #region produit1
         private void btnMoins1_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblQte1.Text);
+            int quantitie = Ricard.Quantite;
+
             if(quantitie == 0)
             {
                 MessageBox.Show("Vide !");
@@ -55,14 +60,20 @@ namespace BarInventory
             {
                 quantitie--;
             }
+            Ricard.Quantite = quantitie;
+            double prixTotal = Ricard.PrixDeVente * Ricard.Quantite;
+            lblPrix1.Text = prixTotal.ToString();
             lblQte1.Text = quantitie.ToString();
         }
 
         private void btnPlus1_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblQte1.Text);
+            int quantitie = Ricard.Quantite;
             quantitie++;
+            Ricard.Quantite = quantitie;
             lblQte1.Text = quantitie.ToString();
+            double prixTotal = Ricard.PrixDeVente * Ricard.Quantite;
+            lblPrix1.Text = prixTotal.ToString();
         }
 
         private void lbl1_Click(object sender, EventArgs e)
@@ -80,7 +91,7 @@ namespace BarInventory
         private void btnMoins2_Click(object sender, EventArgs e)
         {
             {
-                int quantitie = int.Parse(lblQte2.Text);
+                int quantitie = Ricard.Quantite;
                 if (quantitie == 0)
                 {
                     MessageBox.Show("Vide !");
@@ -89,15 +100,19 @@ namespace BarInventory
                 {
                     quantitie--;
                 }
+                Jagerbomb.Quantite = quantitie;
                 lblQte2.Text = quantitie.ToString();
+                double prixTotal = Jagerbomb.PrixDeVente * Jagerbomb.Quantite;
+                lblPrix2.Text = prixTotal.ToString();
             }
         }
 
         private void btnPlus2_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblQte2.Text);
-            quantitie++;
-            lblQte2.Text = quantitie.ToString();
+            Jagerbomb.Quantite++;
+            lblQte2.Text = Jagerbomb.Quantite.ToString();
+            double prixTotal = Jagerbomb.PrixDeVente * Jagerbomb.Quantite;
+            lblPrix2.Text = prixTotal.ToString();
         }
 
         private void lbl2_Click(object sender, EventArgs e)
@@ -116,7 +131,7 @@ namespace BarInventory
         {
             {
                 {
-                    int quantitie = int.Parse(lblQte3.Text);
+                    int quantitie = Cocoroco.Quantite;
                     if (quantitie == 0)
                     {
                         MessageBox.Show("Vide !");
@@ -125,16 +140,20 @@ namespace BarInventory
                     {
                         quantitie--;
                     }
+                    Cocoroco.Quantite = quantitie;
                     lblQte3.Text = quantitie.ToString();
+                    double prixTotal = Cocoroco.PrixDeVente * Cocoroco.Quantite;
+                    lblPrix3.Text = prixTotal.ToString();
                 }
             }
         }
 
         private void btnPlus3_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblQte3.Text);
-            quantitie++;
-            lblQte3.Text = quantitie.ToString();
+            Cocoroco.Quantite++;
+            lblQte3.Text = Cocoroco.Quantite.ToString();
+            double prixTotal = Cocoroco.PrixDeVente * Cocoroco.Quantite;
+            lblPrix3.Text = prixTotal.ToString();
         }
 
         private void lbl3_Click(object sender, EventArgs e)
@@ -153,7 +172,7 @@ namespace BarInventory
         {
             {
                 {
-                    int quantitie = int.Parse(lblQte4.Text);
+                    int quantitie = Devils_spring_vodka.Quantite;
                     if (quantitie == 0)
                     {
                         MessageBox.Show("Vide !");
@@ -162,7 +181,11 @@ namespace BarInventory
                     {
                         quantitie--;
                     }
+                    Devils_spring_vodka.Quantite = quantitie;
                     lblQte4.Text = quantitie.ToString();
+                    double prixTotal = Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite;
+                    lblPrix4.Text = prixTotal.ToString();
+
                 }
             }
         }
@@ -170,9 +193,10 @@ namespace BarInventory
 
         private void btnPlus4_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblQte4.Text);
-            quantitie++;
-            lblQte4.Text = quantitie.ToString();
+            Devils_spring_vodka.Quantite++;
+            lblQte4.Text = Devils_spring_vodka.Quantite.ToString();
+            double prixTotal = Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite;
+            lblPrix4.Text = prixTotal.ToString();
         }
 
         private void lbl4_Click(object sender, EventArgs e)
@@ -192,7 +216,7 @@ namespace BarInventory
         {
             {
                 {
-                    int quantitie = int.Parse(lblQte5.Text);
+                    int quantitie = Sunset_very_strong_rhum.Quantite;
                     if (quantitie == 0)
                     {
                         MessageBox.Show("Vide !");
@@ -201,16 +225,20 @@ namespace BarInventory
                     {
                         quantitie--;
                     }
+                    Sunset_very_strong_rhum.Quantite = quantitie;
                     lblQte5.Text = quantitie.ToString();
+                    double prixTotal = Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite;
+                    lblPrix5.Text = prixTotal.ToString();
                 }
             }
         }
 
         private void btnPlus5_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblQte5.Text);
-            quantitie++;
-            lblQte5.Text = quantitie.ToString();
+            Sunset_very_strong_rhum.Quantite++;
+            lblQte5.Text = Sunset_very_strong_rhum.Quantite.ToString();
+            double prixTotal = Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite;
+            lblPrix5.Text = prixTotal.ToString();
         }
 
         private void lbl5_Click(object sender, EventArgs e)
