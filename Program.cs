@@ -67,6 +67,11 @@ namespace BarInventory
         [STAThread]
         static void Main()
         {
+            Boisson Ricard = new Boisson("Ricard", 3.0, 6.0);
+            Boisson Jagerbomb = new Boisson("Jagerbomb", 4.0, 7.50);
+            Boisson Cocoroco = new Boisson("Cocoroco", 3.0, 6.0);
+            Boisson Devils_spring_vodka = new Boisson("Devils_spring_vodka", 5.0, 9.50);
+            Boisson Sunset_very_strong_rhum = new Boisson("Sunset_very_strong_rhum", 7.0, 15.0);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
