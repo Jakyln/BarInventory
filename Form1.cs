@@ -19,7 +19,23 @@ namespace BarInventory
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            Boisson Ricard = new Boisson("Ricard", 3.0, 6.0, "alcool", 10);
+            Boisson Jagerbomb = new Boisson("Jagerbomb", 4.0, 7.50, "alcool", 4);
+            Boisson Cocoroco = new Boisson("Cocoroco", 3.0, 6.0, "alcool", 8);
+            Boisson Devils_spring_vodka = new Boisson("Devils_spring_vodka", 5.0, 9.50, "alcool", 5);
+            Boisson Sunset_very_strong_rhum = new Boisson("Sunset_very_strong_rhum", 7.0, 15.0, "alcool", 4);
+            List<Boisson> list = new List<Boisson>();
+            list.Add(Ricard);
+            list.Add(Jagerbomb);
+            list.Add(Cocoroco);
+            list.Add(Devils_spring_vodka);
+            list.Add(Sunset_very_strong_rhum);
+            Inventaire inventaire = new Inventaire(list);
+            lbl1.Text = Ricard.name;
+            lbl2.Text = Jagerbomb.Name;
+            lbl3.Text = Cocoroco.Name;
+            lbl4.Text = Devils_spring_vodka.Name;
+            lbl5.Text = Sunset_very_strong_rhum.Name;
         }
 
         #region produit1
