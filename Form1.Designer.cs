@@ -43,11 +43,11 @@
             this.btnMoins5 = new System.Windows.Forms.Button();
             this.lbl5 = new System.Windows.Forms.Label();
             this.btnPlus5 = new System.Windows.Forms.Button();
-            this.lblStock5 = new System.Windows.Forms.Label();
-            this.lblStock4 = new System.Windows.Forms.Label();
-            this.lblStock3 = new System.Windows.Forms.Label();
-            this.lblStock2 = new System.Windows.Forms.Label();
-            this.lblStock1 = new System.Windows.Forms.Label();
+            this.lblPrix5 = new System.Windows.Forms.Label();
+            this.lblPrix4 = new System.Windows.Forms.Label();
+            this.lblPrix3 = new System.Windows.Forms.Label();
+            this.lblPrix2 = new System.Windows.Forms.Label();
+            this.lblPrix1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnPlus1
@@ -64,7 +64,7 @@
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(369, 148);
+            this.lbl1.Location = new System.Drawing.Point(333, 148);
             this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(0, 16);
@@ -96,7 +96,7 @@
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(369, 192);
+            this.lbl2.Location = new System.Drawing.Point(333, 192);
             this.lbl2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(0, 16);
@@ -128,7 +128,7 @@
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(369, 236);
+            this.lbl3.Location = new System.Drawing.Point(333, 236);
             this.lbl3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(0, 16);
@@ -160,7 +160,7 @@
             // lbl4
             // 
             this.lbl4.AutoSize = true;
-            this.lbl4.Location = new System.Drawing.Point(369, 281);
+            this.lbl4.Location = new System.Drawing.Point(333, 281);
             this.lbl4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl4.Name = "lbl4";
             this.lbl4.Size = new System.Drawing.Size(0, 16);
@@ -192,7 +192,7 @@
             // lbl5
             // 
             this.lbl5.AutoSize = true;
-            this.lbl5.Location = new System.Drawing.Point(369, 325);
+            this.lbl5.Location = new System.Drawing.Point(333, 325);
             this.lbl5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl5.Name = "lbl5";
             this.lbl5.Size = new System.Drawing.Size(0, 16);
@@ -210,71 +210,71 @@
             this.btnPlus5.UseVisualStyleBackColor = true;
             this.btnPlus5.Click += new System.EventHandler(this.btnPlus5_Click);
             // 
-            // lblStock5
+            // lblPrix5
             // 
-            this.lblStock5.AutoSize = true;
-            this.lblStock5.Location = new System.Drawing.Point(508, 325);
-            this.lblStock5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblStock5.Name = "lblStock5";
-            this.lblStock5.Size = new System.Drawing.Size(14, 16);
-            this.lblStock5.TabIndex = 21;
-            this.lblStock5.Text = "0";
-            this.lblStock5.Click += new System.EventHandler(this.lblPrix5_Click);
+            this.lblPrix5.AutoSize = true;
+            this.lblPrix5.Location = new System.Drawing.Point(508, 325);
+            this.lblPrix5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix5.Name = "lblPrix5";
+            this.lblPrix5.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix5.TabIndex = 21;
+            this.lblPrix5.Text = "0";
+            this.lblPrix5.Click += new System.EventHandler(this.lblPrix5_Click);
             // 
-            // lblStock4
+            // lblPrix4
             // 
-            this.lblStock4.AutoSize = true;
-            this.lblStock4.Location = new System.Drawing.Point(508, 281);
-            this.lblStock4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblStock4.Name = "lblStock4";
-            this.lblStock4.Size = new System.Drawing.Size(14, 16);
-            this.lblStock4.TabIndex = 20;
-            this.lblStock4.Text = "0";
-            this.lblStock4.Click += new System.EventHandler(this.lblPrix4_Click);
+            this.lblPrix4.AutoSize = true;
+            this.lblPrix4.Location = new System.Drawing.Point(508, 281);
+            this.lblPrix4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix4.Name = "lblPrix4";
+            this.lblPrix4.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix4.TabIndex = 20;
+            this.lblPrix4.Text = "0";
+            this.lblPrix4.Click += new System.EventHandler(this.lblPrix4_Click);
             // 
-            // lblStock3
+            // lblPrix3
             // 
-            this.lblStock3.AutoSize = true;
-            this.lblStock3.Location = new System.Drawing.Point(508, 236);
-            this.lblStock3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblStock3.Name = "lblStock3";
-            this.lblStock3.Size = new System.Drawing.Size(14, 16);
-            this.lblStock3.TabIndex = 19;
-            this.lblStock3.Text = "0";
-            this.lblStock3.Click += new System.EventHandler(this.lblPrix3_Click);
+            this.lblPrix3.AutoSize = true;
+            this.lblPrix3.Location = new System.Drawing.Point(508, 236);
+            this.lblPrix3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix3.Name = "lblPrix3";
+            this.lblPrix3.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix3.TabIndex = 19;
+            this.lblPrix3.Text = "0";
+            this.lblPrix3.Click += new System.EventHandler(this.lblPrix3_Click);
             // 
-            // lblStock2
+            // lblPrix2
             // 
-            this.lblStock2.AutoSize = true;
-            this.lblStock2.Location = new System.Drawing.Point(508, 192);
-            this.lblStock2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblStock2.Name = "lblStock2";
-            this.lblStock2.Size = new System.Drawing.Size(14, 16);
-            this.lblStock2.TabIndex = 18;
-            this.lblStock2.Text = "0";
-            this.lblStock2.Click += new System.EventHandler(this.lblPrix2_Click);
+            this.lblPrix2.AutoSize = true;
+            this.lblPrix2.Location = new System.Drawing.Point(508, 192);
+            this.lblPrix2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrix2.Name = "lblPrix2";
+            this.lblPrix2.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix2.TabIndex = 18;
+            this.lblPrix2.Text = "0";
+            this.lblPrix2.Click += new System.EventHandler(this.lblPrix2_Click);
             // 
-            // lblStock1
+            // lblPrix1
             // 
-            this.lblStock1.AutoSize = true;
-            this.lblStock1.Location = new System.Drawing.Point(508, 148);
-            this.lblStock1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblStock1.Name = "lblStock1";
-            this.lblStock1.Size = new System.Drawing.Size(14, 16);
-            this.lblStock1.TabIndex = 17;
-            this.lblStock1.Text = "0";
-            this.lblStock1.Click += new System.EventHandler(this.lblPrix1_Click);
+            this.lblPrix1.AutoSize = true;
+            this.lblPrix1.Location = new System.Drawing.Point(508, 148);
+            this.lblPrix1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblPrix1.Name = "lblPrix1";
+            this.lblPrix1.Size = new System.Drawing.Size(14, 16);
+            this.lblPrix1.TabIndex = 17;
+            this.lblPrix1.Text = "0";
+            this.lblPrix1.Click += new System.EventHandler(this.lblPrix1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.lblStock5);
-            this.Controls.Add(this.lblStock4);
-            this.Controls.Add(this.lblStock3);
-            this.Controls.Add(this.lblStock2);
-            this.Controls.Add(this.lblStock1);
+            this.Controls.Add(this.lblPrix5);
+            this.Controls.Add(this.lblPrix4);
+            this.Controls.Add(this.lblPrix3);
+            this.Controls.Add(this.lblPrix2);
+            this.Controls.Add(this.lblPrix1);
             this.Controls.Add(this.btnMoins5);
             this.Controls.Add(this.lbl5);
             this.Controls.Add(this.btnPlus5);
@@ -316,11 +316,11 @@
         private System.Windows.Forms.Button btnMoins5;
         private System.Windows.Forms.Label lbl5;
         private System.Windows.Forms.Button btnPlus5;
-        private System.Windows.Forms.Label lblStock5;
-        private System.Windows.Forms.Label lblStock4;
-        private System.Windows.Forms.Label lblStock3;
-        private System.Windows.Forms.Label lblStock2;
-        private System.Windows.Forms.Label lblStock1;
+        private System.Windows.Forms.Label lblPrix5;
+        private System.Windows.Forms.Label lblPrix4;
+        private System.Windows.Forms.Label lblPrix3;
+        private System.Windows.Forms.Label lblPrix2;
+        private System.Windows.Forms.Label lblPrix1;
     }
 }
 

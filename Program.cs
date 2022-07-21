@@ -13,17 +13,19 @@ namespace BarInventory
         double prixDeCreation;
         double prixDeVente;
         string type;
+        int quantite;
 
         public Boisson()
         {
 
         }
-        public Boisson(string name, double prixDeCreation,double prixDeVente, string type)
+        public Boisson(string name, double prixDeCreation,double prixDeVente, string type, int quantite)
         {
             this.name = name;
             this.prixDeCreation = prixDeCreation;
             this.prixDeVente = prixDeVente;
             this.type = type;
+            this.quantite = quantite;
         }
         public string Name
         {
@@ -45,6 +47,11 @@ namespace BarInventory
         {
             get { return type; }
             set { type = value; }
+        }
+        public int Quantite
+        {
+            get { return quantite; }
+            set { quantite = value; }
         }
     }
 
