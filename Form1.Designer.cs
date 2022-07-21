@@ -408,7 +408,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(731, 600);
+            this.label4.Location = new System.Drawing.Point(731, 591);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(38, 16);
             this.label4.TabIndex = 31;
@@ -418,7 +418,7 @@
             // lblTotalPrix
             // 
             this.lblTotalPrix.AutoSize = true;
-            this.lblTotalPrix.Location = new System.Drawing.Point(741, 637);
+            this.lblTotalPrix.Location = new System.Drawing.Point(741, 624);
             this.lblTotalPrix.Name = "lblTotalPrix";
             this.lblTotalPrix.Size = new System.Drawing.Size(14, 16);
             this.lblTotalPrix.TabIndex = 33;
