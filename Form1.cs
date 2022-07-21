@@ -31,11 +31,16 @@ namespace BarInventory
             list.Add(Devils_spring_vodka);
             list.Add(Sunset_very_strong_rhum);
             Inventaire inventaire = new Inventaire(list);
-            lbl1.Text = Ricard.name;
+            lbl1.Text = Ricard.Name;
             lbl2.Text = Jagerbomb.Name;
             lbl3.Text = Cocoroco.Name;
             lbl4.Text = Devils_spring_vodka.Name;
             lbl5.Text = Sunset_very_strong_rhum.Name;
+            lblPrix1.Text = Ricard.Quantite.ToString();
+            lblPrix2.Text = Jagerbomb.Quantite.ToString();
+            lblPrix3.Text = Cocoroco.Quantite.ToString();
+            lblPrix4.Text = Devils_spring_vodka.Quantite.ToString();
+            lblPrix5.Text = Sunset_very_strong_rhum.Quantite.ToString();
         }
 
         #region produit1

@@ -48,6 +48,11 @@ namespace BarInventory
             get { return type; }
             set { type = value; }
         }
+        public int Quantite
+        {
+            get { return quantite; }
+            set { quantite = value; }
+        }
     }
 
     public class Inventaire
