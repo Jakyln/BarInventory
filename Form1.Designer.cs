@@ -60,6 +60,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblTotalPrix = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -70,7 +72,7 @@
             // btnPlus1
             // 
             this.btnPlus1.Location = new System.Drawing.Point(641, 63);
-            this.btnPlus1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus1.Margin = new System.Windows.Forms.Padding(4);
             this.btnPlus1.Name = "btnPlus1";
             this.btnPlus1.Size = new System.Drawing.Size(44, 37);
             this.btnPlus1.TabIndex = 2;
@@ -91,7 +93,7 @@
             // btnMoins1
             // 
             this.btnMoins1.Location = new System.Drawing.Point(589, 63);
-            this.btnMoins1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins1.Margin = new System.Windows.Forms.Padding(4);
             this.btnMoins1.Name = "btnMoins1";
             this.btnMoins1.Size = new System.Drawing.Size(44, 37);
             this.btnMoins1.TabIndex = 4;
@@ -102,7 +104,7 @@
             // btnMoins2
             // 
             this.btnMoins2.Location = new System.Drawing.Point(589, 186);
-            this.btnMoins2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins2.Margin = new System.Windows.Forms.Padding(4);
             this.btnMoins2.Name = "btnMoins2";
             this.btnMoins2.Size = new System.Drawing.Size(44, 37);
             this.btnMoins2.TabIndex = 7;
@@ -123,7 +125,7 @@
             // btnPlus2
             // 
             this.btnPlus2.Location = new System.Drawing.Point(641, 186);
-            this.btnPlus2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus2.Margin = new System.Windows.Forms.Padding(4);
             this.btnPlus2.Name = "btnPlus2";
             this.btnPlus2.Size = new System.Drawing.Size(44, 37);
             this.btnPlus2.TabIndex = 5;
@@ -134,7 +136,7 @@
             // btnMoins3
             // 
             this.btnMoins3.Location = new System.Drawing.Point(589, 306);
-            this.btnMoins3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins3.Margin = new System.Windows.Forms.Padding(4);
             this.btnMoins3.Name = "btnMoins3";
             this.btnMoins3.Size = new System.Drawing.Size(44, 37);
             this.btnMoins3.TabIndex = 10;
@@ -155,7 +157,7 @@
             // btnPlus3
             // 
             this.btnPlus3.Location = new System.Drawing.Point(641, 306);
-            this.btnPlus3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus3.Margin = new System.Windows.Forms.Padding(4);
             this.btnPlus3.Name = "btnPlus3";
             this.btnPlus3.Size = new System.Drawing.Size(44, 37);
             this.btnPlus3.TabIndex = 8;
@@ -166,7 +168,7 @@
             // btnMoins4
             // 
             this.btnMoins4.Location = new System.Drawing.Point(589, 428);
-            this.btnMoins4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins4.Margin = new System.Windows.Forms.Padding(4);
             this.btnMoins4.Name = "btnMoins4";
             this.btnMoins4.Size = new System.Drawing.Size(44, 37);
             this.btnMoins4.TabIndex = 13;
@@ -187,7 +189,7 @@
             // btnPlus4
             // 
             this.btnPlus4.Location = new System.Drawing.Point(641, 428);
-            this.btnPlus4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus4.Margin = new System.Windows.Forms.Padding(4);
             this.btnPlus4.Name = "btnPlus4";
             this.btnPlus4.Size = new System.Drawing.Size(44, 37);
             this.btnPlus4.TabIndex = 11;
@@ -198,7 +200,7 @@
             // btnMoins5
             // 
             this.btnMoins5.Location = new System.Drawing.Point(589, 548);
-            this.btnMoins5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoins5.Margin = new System.Windows.Forms.Padding(4);
             this.btnMoins5.Name = "btnMoins5";
             this.btnMoins5.Size = new System.Drawing.Size(44, 37);
             this.btnMoins5.TabIndex = 16;
@@ -219,7 +221,7 @@
             // btnPlus5
             // 
             this.btnPlus5.Location = new System.Drawing.Point(641, 548);
-            this.btnPlus5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus5.Margin = new System.Windows.Forms.Padding(4);
             this.btnPlus5.Name = "btnPlus5";
             this.btnPlus5.Size = new System.Drawing.Size(44, 37);
             this.btnPlus5.TabIndex = 14;
@@ -356,7 +358,7 @@
             // 
             this.pictureBox5.Image = global::BarInventory.Properties.Resources.sunset;
             this.pictureBox5.Location = new System.Drawing.Point(314, 513);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(157, 103);
             this.pictureBox5.TabIndex = 34;
@@ -367,7 +369,7 @@
             // 
             this.pictureBox4.Image = global::BarInventory.Properties.Resources.devils_springs;
             this.pictureBox4.Location = new System.Drawing.Point(314, 402);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(157, 103);
             this.pictureBox4.TabIndex = 33;
@@ -377,7 +379,7 @@
             // 
             this.pictureBox3.Image = global::BarInventory.Properties.Resources.cocoroco_;
             this.pictureBox3.Location = new System.Drawing.Point(304, 271);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(157, 103);
             this.pictureBox3.TabIndex = 32;
@@ -387,7 +389,7 @@
             // 
             this.pictureBox2.Image = global::BarInventory.Properties.Resources.jager;
             this.pictureBox2.Location = new System.Drawing.Point(304, 149);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(157, 103);
             this.pictureBox2.TabIndex = 31;
@@ -397,22 +399,43 @@
             // 
             this.pictureBox1.Image = global::BarInventory.Properties.Resources.ricardo;
             this.pictureBox1.Location = new System.Drawing.Point(288, 28);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(157, 103);
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(731, 591);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 16);
+            this.label4.TabIndex = 31;
+            this.label4.Text = "Total";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // lblTotalPrix
+            // 
+            this.lblTotalPrix.AutoSize = true;
+            this.lblTotalPrix.Location = new System.Drawing.Point(741, 624);
+            this.lblTotalPrix.Name = "lblTotalPrix";
+            this.lblTotalPrix.Size = new System.Drawing.Size(14, 16);
+            this.lblTotalPrix.TabIndex = 33;
+            this.lblTotalPrix.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1151, 642);
+            this.ClientSize = new System.Drawing.Size(1108, 662);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lblTotalPrix);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblPrix5);
@@ -440,7 +463,7 @@
             this.Controls.Add(this.btnMoins1);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btnPlus1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Inventaire du bar";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -488,6 +511,8 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblTotalPrix;
     }
 }
 
