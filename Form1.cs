@@ -36,17 +36,17 @@ namespace BarInventory
             lbl3.Text = Cocoroco.Name;
             lbl4.Text = Devils_spring_vodka.Name;
             lbl5.Text = Sunset_very_strong_rhum.Name;
-            lblPrix1.Text = Ricard.Quantite.ToString();
-            lblPrix2.Text = Jagerbomb.Quantite.ToString();
-            lblPrix3.Text = Cocoroco.Quantite.ToString();
-            lblPrix4.Text = Devils_spring_vodka.Quantite.ToString();
-            lblPrix5.Text = Sunset_very_strong_rhum.Quantite.ToString();
+            lblQte1.Text = Ricard.Quantite.ToString();
+            lblQte2.Text = Jagerbomb.Quantite.ToString();
+            lblQte3.Text = Cocoroco.Quantite.ToString();
+            lblQte4.Text = Devils_spring_vodka.Quantite.ToString();
+            lblQte5.Text = Sunset_very_strong_rhum.Quantite.ToString();
         }
 
         #region produit1
         private void btnMoins1_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblStock1.Text);
+            int quantitie = int.Parse(lblQte1.Text);
             if(quantitie == 0)
             {
                 MessageBox.Show("Vide !");
@@ -55,14 +55,14 @@ namespace BarInventory
             {
                 quantitie--;
             }
-            lblStock1.Text = quantitie.ToString();
+            lblQte1.Text = quantitie.ToString();
         }
 
         private void btnPlus1_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblStock1.Text);
+            int quantitie = int.Parse(lblQte1.Text);
             quantitie++;
-            lblStock1.Text = quantitie.ToString();
+            lblQte1.Text = quantitie.ToString();
         }
 
         private void lbl1_Click(object sender, EventArgs e)
@@ -80,7 +80,7 @@ namespace BarInventory
         private void btnMoins2_Click(object sender, EventArgs e)
         {
             {
-                int quantitie = int.Parse(lblStock2.Text);
+                int quantitie = int.Parse(lblQte2.Text);
                 if (quantitie == 0)
                 {
                     MessageBox.Show("Vide !");
@@ -89,15 +89,15 @@ namespace BarInventory
                 {
                     quantitie--;
                 }
-                lblStock2.Text = quantitie.ToString();
+                lblQte2.Text = quantitie.ToString();
             }
         }
 
         private void btnPlus2_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblStock2.Text);
+            int quantitie = int.Parse(lblQte2.Text);
             quantitie++;
-            lblStock2.Text = quantitie.ToString();
+            lblQte2.Text = quantitie.ToString();
         }
 
         private void lbl2_Click(object sender, EventArgs e)
@@ -116,7 +116,7 @@ namespace BarInventory
         {
             {
                 {
-                    int quantitie = int.Parse(lblStock3.Text);
+                    int quantitie = int.Parse(lblQte3.Text);
                     if (quantitie == 0)
                     {
                         MessageBox.Show("Vide !");
@@ -125,16 +125,16 @@ namespace BarInventory
                     {
                         quantitie--;
                     }
-                    lblStock3.Text = quantitie.ToString();
+                    lblQte3.Text = quantitie.ToString();
                 }
             }
         }
 
         private void btnPlus3_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblStock3.Text);
+            int quantitie = int.Parse(lblQte3.Text);
             quantitie++;
-            lblStock3.Text = quantitie.ToString();
+            lblQte3.Text = quantitie.ToString();
         }
 
         private void lbl3_Click(object sender, EventArgs e)
@@ -153,7 +153,7 @@ namespace BarInventory
         {
             {
                 {
-                    int quantitie = int.Parse(lblStock4.Text);
+                    int quantitie = int.Parse(lblQte4.Text);
                     if (quantitie == 0)
                     {
                         MessageBox.Show("Vide !");
@@ -162,7 +162,7 @@ namespace BarInventory
                     {
                         quantitie--;
                     }
-                    lblStock4.Text = quantitie.ToString();
+                    lblQte4.Text = quantitie.ToString();
                 }
             }
         }
@@ -170,9 +170,9 @@ namespace BarInventory
 
         private void btnPlus4_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblStock4.Text);
+            int quantitie = int.Parse(lblQte4.Text);
             quantitie++;
-            lblStock4.Text = quantitie.ToString();
+            lblQte4.Text = quantitie.ToString();
         }
 
         private void lbl4_Click(object sender, EventArgs e)
@@ -192,7 +192,7 @@ namespace BarInventory
         {
             {
                 {
-                    int quantitie = int.Parse(lblStock5.Text);
+                    int quantitie = int.Parse(lblQte5.Text);
                     if (quantitie == 0)
                     {
                         MessageBox.Show("Vide !");
@@ -201,16 +201,16 @@ namespace BarInventory
                     {
                         quantitie--;
                     }
-                    lblStock5.Text = quantitie.ToString();
+                    lblQte5.Text = quantitie.ToString();
                 }
             }
         }
 
         private void btnPlus5_Click(object sender, EventArgs e)
         {
-            int quantitie = int.Parse(lblStock5.Text);
+            int quantitie = int.Parse(lblQte5.Text);
             quantitie++;
-            lblStock5.Text = quantitie.ToString();
+            lblQte5.Text = quantitie.ToString();
         }
 
         private void lbl5_Click(object sender, EventArgs e)
