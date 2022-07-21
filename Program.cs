@@ -12,21 +12,24 @@ namespace BarInventory
         string name;
         double prixDeCreation;
         double prixDeVente;
+        string type;
 
         public Boisson()
         {
 
         }
-        public Boisson(string name, double prixDeCreation,double prixDeVente)
+        public Boisson(string name, double prixDeCreation,double prixDeVente, string type)
         {
             this.name = name;
             this.prixDeCreation = prixDeCreation;
             this.prixDeVente = prixDeVente;
+            this.type = type;
         }
         public int Id { get; set; }
         public string Name { get; set; }
         public double PrixDeCreation { get; set; }
         public double PrixDeVente { get; set; }
+        public string Type { get; set; }
     }
 
     public class Inventaire
@@ -37,7 +40,7 @@ namespace BarInventory
         {
 
         }
-        public Inventaire(List<Boisson> listBoissons, double prixDeCreationTotal, double prixDeVenteTotal)
+        public Inventaire(List<Boisson> listBoissons)
         {
             this.listBoissons = listBoissons;
         }
@@ -45,18 +48,144 @@ namespace BarInventory
 
         public int getStockTotal()
         {
-            //TODO
-            return 0;
+            return listBoissons.Count();
         }
         public double getPrixDeVenteTotal()
         {
-            //TODO
-            return 0d;
+            double total = 0;
+            foreach (Boisson boisson in listBoissons)
+            {
+                total += boisson.PrixDeVente;
+            }
+            return total;
         }
         public double getPrixDeCreationTotal()
         {
-            //TODO
-            return 0d;
+            double total = 0;
+            foreach (Boisson boisson in listBoissons)
+            {
+                total += boisson.PrixDeCreation;
+            }
+            return total;
+        }
+
+        public int getStockFromListBoisson(List<Boisson> boissons)
+        {
+            return boissons.Count();
+        }
+        public double getPrixDeVenteFromListBoisson(List<Boisson> boissons)
+        {
+            double total = 0;
+            foreach (Boisson boisson in boissons)
+            {
+                total += boisson.PrixDeCreation;
+            }
+            return total;
+        }
+        public double getPrixDeCreationFromListBoisson(List<Boisson> boissons)
+        {
+            double total = 0;
+            foreach (Boisson boisson in boissons)
+            {
+                total += boisson.PrixDeCreation;
+            }
+            return total;
+        }
+        public List<Boisson> getAllBoissonWithName(string name)
+        {
+            List<Boisson> boissonsWithName = new List<Boisson>();
+            foreach(Boisson boisson in listBoissons)
+            {
+                if (boisson.Name.Equals(name))
+                {
+                    boissonsWithName.Add(boisson);
+                }
+            }
+            return boissonsWithName;
+        }
+        public int getStockFromBoissonsWithName(string name)
+        {
+            int count = 0;
+            foreach (Boisson boisson in listBoissons)
+            {
+                if (boisson.Name.Equals(name))
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+        public double getPrixDeVenteTotalFromBoissonsWithName(string name)
+        {
+            double total = 0;
+            foreach (Boisson boisson in listBoissons)
+            {
+                if (boisson.Name.Equals(name))
+                {
+                    total += boisson.PrixDeVente;
+                }
+            }
+            return total;
+        }
+        public double getPrixDeCreationTotalFromBoissonsWithName(string name)
+        {
+            double total = 0;
+            foreach (Boisson boisson in listBoissons)
+            {
+                if (boisson.Name.Equals(name))
+                {
+                    total += boisson.PrixDeCreation;
+                }
+            }
+            return total;
+        }
+        public List<Boisson> getAllBoissonWithType(string type)
+        {
+            List<Boisson> boissonsWithName = new List<Boisson>();
+            foreach (Boisson boisson in listBoissons)
+            {
+                if (boisson.Type.Equals(type))
+                {
+                    boissonsWithName.Add(boisson);
+                }
+            }
+            return boissonsWithName;
+        }
+        public int getStockFromBoissonsWithType(string type)
+        {
+            int count = 0;
+            foreach (Boisson boisson in listBoissons)
+            {
+                if (boisson.Type.Equals(type))
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+        public double getPrixDeVenteTotalFromBoissonsWithType(string type)
+        {
+            double total = 0;
+            foreach (Boisson boisson in listBoissons)
+            {
+                if (boisson.Type.Equals(type))
+                {
+                    total += boisson.PrixDeVente;
+                }
+            }
+            return total;
+        }
+        public double getPrixDeCreationTotalFromBoissonsWithType(string type)
+        {
+            double total = 0;
+            foreach (Boisson boisson in listBoissons)
+            {
+                if (boisson.Type.Equals(type))
+                {
+                    total += boisson.PrixDeCreation;
+                }
+            }
+            return total;
         }
     }
     internal static class Program
