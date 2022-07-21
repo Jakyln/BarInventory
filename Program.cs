@@ -25,11 +25,27 @@ namespace BarInventory
             this.prixDeVente = prixDeVente;
             this.type = type;
         }
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public double PrixDeCreation { get; set; }
-        public double PrixDeVente { get; set; }
-        public string Type { get; set; }
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public double PrixDeCreation
+        {
+            get { return prixDeCreation; }
+            set { prixDeCreation = value; }
+        }
+
+        public double PrixDeVente
+        {
+            get { return prixDeVente; }
+            set { prixDeVente = value; }
+        }
+        public string Type
+        {
+            get { return type; }
+            set { type = value; }
+        }
     }
 
     public class Inventaire
@@ -44,7 +60,12 @@ namespace BarInventory
         {
             this.listBoissons = listBoissons;
         }
-        public List<Boisson> ListBoissons { get; set; }
+        public List<Boisson> ListBoissons
+        {
+            get { return listBoissons; }
+            set { listBoissons = value; }
+        }
+
 
         public int getStockTotal()
         {
