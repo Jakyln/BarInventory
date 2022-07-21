@@ -91,7 +91,7 @@ namespace BarInventory
         private void btnMoins2_Click(object sender, EventArgs e)
         {
             {
-                int quantitie = Ricard.Quantite;
+                int quantitie = Jagerbomb.Quantite;
                 if (quantitie == 0)
                 {
                     MessageBox.Show("Vide !");
