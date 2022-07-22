@@ -452,41 +452,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnPlus1;
-        private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.Button btnMoins1;
-        private System.Windows.Forms.Button btnMoins2;
-        private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.Button btnPlus2;
-        private System.Windows.Forms.Button btnMoins3;
-        private System.Windows.Forms.Label lbl3;
-        private System.Windows.Forms.Button btnPlus3;
-        private System.Windows.Forms.Button btnMoins4;
-        private System.Windows.Forms.Label lbl4;
-        private System.Windows.Forms.Button btnPlus4;
-        private System.Windows.Forms.Button btnMoins5;
-        private System.Windows.Forms.Label lbl5;
-        private System.Windows.Forms.Button btnPlus5;
-        private System.Windows.Forms.Label lblQte5;
-        private System.Windows.Forms.Label lblQte4;
-        private System.Windows.Forms.Label lblQte3;
-        private System.Windows.Forms.Label lblQte2;
-        private System.Windows.Forms.Label lblQte1;
-        private System.Windows.Forms.Label lblPrix5;
-        private System.Windows.Forms.Label lblPrix4;
-        private System.Windows.Forms.Label lblPrix3;
-        private System.Windows.Forms.Label lblPrix2;
-        private System.Windows.Forms.Label lblPrix1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lblTotalPrix;
     }
 }
 
