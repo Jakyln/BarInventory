@@ -1,0 +1,11 @@
+C:\Arthis\IPI\Scrum_Agile\barapp\obj\Debug\BarInventory.csproj.AssemblyReference.cache
+C:\Arthis\IPI\Scrum_Agile\barapp\obj\Debug\BarInventory.csproj.SuggestedBindingRedirects.cache
+C:\Arthis\IPI\Scrum_Agile\barapp\obj\Debug\BarInventory.Properties.Resources.resources
+C:\Arthis\IPI\Scrum_Agile\barapp\obj\Debug\BarInventory.csproj.GenerateResource.cache
+C:\Arthis\IPI\Scrum_Agile\barapp\obj\Debug\BarInventory.csproj.CoreCompileInputs.cache
+C:\Arthis\IPI\Scrum_Agile\barapp\bin\Debug\BarInventory.exe.config
+C:\Arthis\IPI\Scrum_Agile\barapp\bin\Debug\BarInventory.exe
+C:\Arthis\IPI\Scrum_Agile\barapp\bin\Debug\BarInventory.pdb
+C:\Arthis\IPI\Scrum_Agile\barapp\obj\Debug\BarInventory.exe
+C:\Arthis\IPI\Scrum_Agile\barapp\obj\Debug\BarInventory.pdb
+C:\Arthis\IPI\Scrum_Agile\barapp\obj\Debug\BarInventory.Form1.resources
