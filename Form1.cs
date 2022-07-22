@@ -71,11 +71,11 @@ namespace BarInventory
             lblQte3.Text = Cocoroco.Quantite.ToString();
             lblQte4.Text = Devils_spring_vodka.Quantite.ToString();
             lblQte5.Text = Sunset_very_strong_rhum.Quantite.ToString();
-            lblPrix1.Text = (Ricard.PrixDeVente * Ricard.Quantite).ToString() + " $";
-            lblPrix2.Text = (Jagerbomb.PrixDeVente * Jagerbomb.Quantite).ToString() + " $";
-            lblPrix3.Text = (Cocoroco.PrixDeVente * Cocoroco.Quantite).ToString() + " $";
-            lblPrix4.Text = (Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite).ToString() + " $";
-            lblPrix5.Text = (Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite).ToString() + " $";
+            lblPrix1.Text = calculPrixVenteTotalProduit(Ricard).ToString() + " $";
+            lblPrix2.Text = calculPrixVenteTotalProduit(Jagerbomb).ToString() + " $";
+            lblPrix3.Text = calculPrixVenteTotalProduit(Cocoroco).ToString() + " $";
+            lblPrix4.Text = calculPrixVenteTotalProduit(Devils_spring_vodka).ToString() + " $";
+            lblPrix5.Text = calculPrixVenteTotalProduit(Sunset_very_strong_rhum).ToString() + " $";
             updatePrixTotal();
         }
 
