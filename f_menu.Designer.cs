@@ -1,6 +1,6 @@
 ﻿namespace BarInventory
 {
-    partial class Form1
+    partial class f_menu
     {
         /// <summary>
         /// Variable nécessaire au concepteur.

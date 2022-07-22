@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BarInventory
 {
-    public partial class Form1 : Form
+    public partial class f_menu : Form
     {
         static Boisson Ricard = new Boisson("Ricard", 3.0, 6.0, "alcool", 10);
         static Boisson Jagerbomb = new Boisson("Jagerbomb", 4.0, 7.50, "alcool", 4);
@@ -54,7 +54,7 @@ namespace BarInventory
             }
         }
 
-        public Form1()
+        public f_menu()
         {
             InitializeComponent();
         }
