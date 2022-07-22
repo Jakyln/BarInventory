@@ -29,7 +29,7 @@ namespace BarInventory
             {
                 prixTotal += boisson.PrixDeVente * boisson.Quantite;
             }
-            lblTotalPrix.Text = prixTotal.ToString();
+            lblTotalPrix.Text = prixTotal.ToString() + " $";
         }
 
         public double calculPrixVenteTotalProduit(Boisson boisson)
@@ -71,11 +71,11 @@ namespace BarInventory
             lblQte3.Text = Cocoroco.Quantite.ToString();
             lblQte4.Text = Devils_spring_vodka.Quantite.ToString();
             lblQte5.Text = Sunset_very_strong_rhum.Quantite.ToString();
-            lblPrix1.Text = (Ricard.PrixDeVente * Ricard.Quantite).ToString();
-            lblPrix2.Text = (Jagerbomb.PrixDeVente * Jagerbomb.Quantite).ToString();
-            lblPrix3.Text = (Cocoroco.PrixDeVente * Cocoroco.Quantite).ToString();
-            lblPrix4.Text = (Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite).ToString();
-            lblPrix5.Text = (Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite).ToString();
+            lblPrix1.Text = (Ricard.PrixDeVente * Ricard.Quantite).ToString() + " $";
+            lblPrix2.Text = (Jagerbomb.PrixDeVente * Jagerbomb.Quantite).ToString() + " $";
+            lblPrix3.Text = (Cocoroco.PrixDeVente * Cocoroco.Quantite).ToString() + " $";
+            lblPrix4.Text = (Devils_spring_vodka.PrixDeVente * Devils_spring_vodka.Quantite).ToString() + " $";
+            lblPrix5.Text = (Sunset_very_strong_rhum.PrixDeVente * Sunset_very_strong_rhum.Quantite).ToString() + " $";
             updatePrixTotal();
         }
 
@@ -230,6 +230,11 @@ namespace BarInventory
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTotalPrix_Click(object sender, EventArgs e)
         {
 
         }
