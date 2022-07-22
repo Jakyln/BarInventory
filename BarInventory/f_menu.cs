@@ -76,7 +76,7 @@ namespace BarInventory
             lblPrix3.Text = calculPrixVenteTotalProduit(Cocoroco).ToString() + " $";
             lblPrix4.Text = calculPrixVenteTotalProduit(Devils_spring_vodka).ToString() + " $";
             lblPrix5.Text = calculPrixVenteTotalProduit(Sunset_very_strong_rhum).ToString() + " $";
-            updatePrixTotal(boissons);
+            lblTotalPrix.Text = updatePrixTotal(boissons).ToString() + " $";
         }
 
         #region produit1
